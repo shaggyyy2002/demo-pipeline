@@ -1,7 +1,7 @@
 # Python App Deployment using Github Actions
 
 ## Overview:
-I have created a basic Python app, with task to deploy it using Github Actions. 
+I have created a basic Python app, with task to deploy it using Github Actions for the DevOps Project
 
 ## Installation Guide:
 To start the app on your local machine make sure to have git, docker & docker-compose already installed.
