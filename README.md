@@ -21,6 +21,8 @@ docker build -t python-app .
 docker run -d -p 5000:5000 --name pearlthoughts python-app 
 ```
 
+### OR
+
 ### Start using Docker-Compose 
 - Make sure you're in the root folder and paste the command in your terminal
 ```sh
@@ -46,6 +48,8 @@ docker-compose up
      - Delete our old container running the same image if any. 
      - Once done it will start a new contaier using the latest Docker-Image from our DockerHub.
 
+## Post Deployment
+<img width="440" alt="Screenshot 2023-10-19 at 4 40 03 PM" src="https://github.com/shaggyyy2002/demo-pipeline/assets/90847875/24166400-6a85-4640-8383-c926770aeb04">
 
 
 
