@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Pull Docker-Image from DockerHub
-      run: sudo docker pull docker pull nitin03/python-app:latest
+      run: sudo docker pull nitin03/python-app:latest
     - name: Delete the old Docker Container
       run: sudo docker rm -f pearlthoughts || true
     - name: Run Docker Container
